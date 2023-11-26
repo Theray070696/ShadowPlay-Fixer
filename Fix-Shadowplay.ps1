@@ -31,7 +31,7 @@ while($True)
     
     if($FailCount > 5 -and $FailCount < 10)
     {
-        $FailCount += 1
+        $FailCount += 2
         Start-Process -Path 'C:\Program Files\NVIDIA Corporation\NVIDIA GeForce Experience\NVIDIA GeForce Experience.exe'
         Start-Sleep -Seconds 60
         continue
